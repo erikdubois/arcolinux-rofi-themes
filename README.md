@@ -2,9 +2,9 @@
   <img src="kiro.jpg" alt="Kiro" width="220" />
 </p>
 
-# edu-rofi-themes
+# kiro-rofi-themes
 
-A bundle of [rofi](https://github.com/davatorium/rofi) themes (`*.rasi`) installed system-wide, ready to be selected from any rofi config. Pair with [edu-rofi](https://github.com/erikdubois/edu-rofi) for the matching launcher configuration. Part of the `~/EDU/` learning series.
+A bundle of [rofi](https://github.com/davatorium/rofi) themes (`*.rasi`) installed system-wide, ready to be selected from any rofi config. Pair with [kiro-rofi](https://github.com/kirodubes/kiro-rofi) for the matching launcher configuration. Part of the `~/EDU/` learning series.
 
 ## What's in this repo
 
@@ -13,7 +13,7 @@ A bundle of [rofi](https://github.com/davatorium/rofi) themes (`*.rasi`) install
 
 ## Companion repo
 
-- [edu-rofi](https://github.com/erikdubois/edu-rofi) — the matching launcher config (keybindings, helper scripts).
+- [kiro-rofi](https://github.com/kirodubes/kiro-rofi) — the matching launcher config (keybindings, helper scripts).
 
 ## Installation
 
@@ -27,14 +27,14 @@ Server = https://erikdubois.github.io/$repo/$arch
 
 ```bash
 sudo pacman -Syu
-sudo pacman -S edu-rofi-themes
+sudo pacman -S kiro-rofi-themes
 ```
 
 ### Manual
 
 ```bash
-git clone https://github.com/erikdubois/edu-rofi-themes.git
-cd edu-rofi-themes
+git clone https://github.com/kirodubes/kiro-rofi-themes.git
+cd kiro-rofi-themes
 sudo cp -r usr/share/rofi/themes/. /usr/share/rofi/themes/
 ```
 
